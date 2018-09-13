@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/fatih/color"
 	"os"
+	"strings"
 )
 
 func main() {
@@ -10,7 +11,8 @@ func main() {
 	if len(os.Args) == 1 {
 		msg = "y\n"
 	} else {
-		msg = os.Args[1] + "\n"
+		msg = strings.Join(os.Args[1:], " ")
+		msg += "\n"
 	}
 	print := os.Stdout
 	red := color.New(color.FgRed).FprintFunc()
