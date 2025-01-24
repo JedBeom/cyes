@@ -23,7 +23,6 @@ func main() {
 	yellow := color.New(color.FgYellow).FprintFunc()
 	magenta := color.New(color.FgMagenta).FprintFunc()
 	cyan := color.New(color.FgCyan).FprintFunc()
-	white := color.New(color.FgWhite).FprintFunc()
 
 	for {
 		red(print, msg)
@@ -32,6 +31,5 @@ func main() {
 		yellow(print, msg)
 		magenta(print, msg)
 		cyan(print, msg)
-		white(print, msg)
 	}
 }
