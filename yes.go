@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/fatih/color"
 	"os"
 	"strings"
+
+	"github.com/fatih/color"
 )
 
 func main() {
