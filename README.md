@@ -1,6 +1,6 @@
 # CYES
 
-A colorful yes.
+A colorful yes!!!
 
 ## Install & Build
 ```shell
