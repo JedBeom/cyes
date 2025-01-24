@@ -16,6 +16,7 @@ func main() {
 		msg += "\n"
 	}
 	print := os.Stdout
+
 	red := color.New(color.FgRed).FprintFunc()
 	blue := color.New(color.FgBlue).FprintFunc()
 	green := color.New(color.FgGreen).FprintFunc()
