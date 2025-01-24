@@ -32,5 +32,6 @@ func main() {
 		yellow(print, msg)
 		magenta(print, msg)
 		cyan(print, msg)
+		white(print, msg) // added white again
 	}
 }
