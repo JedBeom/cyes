@@ -15,15 +15,19 @@ func main() {
 		msg = strings.Join(os.Args[1:], " ")
 		msg += "\n"
 	}
-	print := os.Stdout
 
+	print_colors(msg)
+}
+
+func print_colors(msg string) {
+	print := os.Stdout
 	red := color.New(color.FgRed).FprintFunc()
 	blue := color.New(color.FgBlue).FprintFunc()
 	green := color.New(color.FgGreen).FprintFunc()
 	yellow := color.New(color.FgYellow).FprintFunc()
 	magenta := color.New(color.FgMagenta).FprintFunc()
 	cyan := color.New(color.FgCyan).FprintFunc()
-    white := color.New(color.FgWhite).FprintFunc()
+	white := color.New(color.FgWhite).FprintFunc()
 
 	for {
 		red(print, msg)
