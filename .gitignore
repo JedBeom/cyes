@@ -12,3 +12,7 @@
 *.out
 
 .DS_Store
+
+
+# executable
+cyes
