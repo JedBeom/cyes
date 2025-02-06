@@ -16,4 +16,4 @@ jobs:
         with:
           candidates: ${{ secrets.CANDIDATES }}
           webhook_url: ${{ secrets.WEBHOOK_URL }}
-          template: "<@{userID}> 님이 리뷰어로 당첨! [PR #{prNumber}]({prLink})"
+          template: "<@USER_ID> 님이 리뷰어로 당첨! [PR PR_NUMBER](PR_LINK)"
