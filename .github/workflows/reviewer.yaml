@@ -17,3 +17,4 @@ jobs:
           candidates: ${{ secrets.CANDIDATES }}
           webhook_url: ${{ secrets.WEBHOOK_URL }}
           template: "<@{userID}> 님이 리뷰어로 당첨! 리뷰해주세요!! [PR #{prNumber}]({prURL})"
+          allow_self_review: true
