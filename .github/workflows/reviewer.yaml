@@ -8,7 +8,6 @@ on:
 jobs:
   random-reviewer:
     runs-on: ubuntu-latest
-    env:
     steps:
       - name: Assign the reviewer randomly
         uses: JedBeom/random-reviewer-discord@main
